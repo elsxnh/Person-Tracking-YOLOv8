@@ -2,9 +2,36 @@
 
 📁 Created by: Elsa Nurul Hidayah, 2023
 
-This repository is created to fulfill the boot camp Computer Vision project requirement from Indonesia AI.
+This repository is created to fulfill the bootcamp Computer Vision project requirement from Indonesia AI.
 
-🔬 This project of person tracking is developed using existing models of YOLOv8 of different sizes from s, l, and xl. Ths usage is simple: to create an artificial intelligence model to track objects for the needs of a futuristic smart city. This system will then automatically detect and track people within a specific point to maintain safety and security within the city. 
+🔬 This project of person tracking is developed using existing models of YOLOv8l with settings of 25 and 50 epochs, due to the constraint in time and resources. Ths usage is simple: to create an artificial intelligence model to track people for the needs of a futuristic smart city. This system will then automatically detect and track people within a specific point to maintain safety and security within the city. 
+
+## RESULTS
+
+The dataset used is from COCO Dataset, downloaded from the fifty one zoo library (dataset preparation is already included in the notebook given) and the class used is only 'person'. The components of the dataset are explained below:
+
+ - ± 3000 images as training
+- ± 1000 images as validation
+- ± 500 images as test
+  
+After the model is trained from the image dataset, the corresponding results are shown below:
+
+|                      	| **YOLOv8l 25 epochs** 	| **YOLOv8l 50 epochs** 	|
+|----------------------	|:---------------------:	|:---------------------:	|
+|    **_Precision_**   	|         0.726         	|          0.75         	|
+|     **_Recall_**     	|          0.65         	|         0.656         	|
+|     **_mAP@50_**     	|          0.71         	|         0.722         	|
+|   **_mAP(@50-95)_**  	|         0.465         	|         0.482         	|
+| **_Inference Time_** 	|          12.4         	|          12.4         	|
+
+The graphical results are shown below: 
+
+- YOLOv8l 25 Epochs
+![results](https://github.com/elsxnh/Person-Tracking-YOLOv8/assets/77186233/09dc6404-2fcb-480b-8374-5520a0e2b2d6)
+
+- YOLOv8l 50 Epochs
+![results](https://github.com/elsxnh/Person-Tracking-YOLOv8/assets/77186233/e8a76ebc-9163-4976-b3c3-7c8c2fe339f0)
+
 
 ## Getting Started
 
