@@ -32,6 +32,9 @@ The graphical results are shown below:
 - YOLOv8l 50 Epochs
 ![results](https://github.com/elsxnh/Person-Tracking-YOLOv8/assets/77186233/e8a76ebc-9163-4976-b3c3-7c8c2fe339f0)
 
+The result using the weights on a video can be seen in the link below:
+
+https://drive.google.com/file/d/1-XcaZFrSpQ686q2-hLRr1AZr1Z0aEsV7/view?usp=sharing 
 
 ## Getting Started
 
